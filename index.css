@@ -1,0 +1,85 @@
+.headcolor{
+    margin-top: -8px;
+    
+    height: 30px;
+    /* width: 100%; */
+    background-color: orangered;
+    opacity: 0.8;
+}
+.cardlayout{
+    background-color: rgba(80,80,80,0.1);
+    /* overflow:auto;
+    padding-left:10px; 
+    width: 100%; */
+    
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+
+}
+.fas{
+    font-size: 45px;
+}
+.active{
+    background-color: orangered;
+    color: white;
+}
+.navright{
+    /* display: flex; */
+    justify-content: flex-end;
+}
+.dropdownnav{
+    
+    
+}
+.dropdownitemnav{
+    margin-bottom: 2px;
+    background-color: orangered;
+    border: 1px solid black;
+}
+.showme{
+    display: none;
+}
+.cardimage2{
+    display: flex;
+position: absolute;
+margin-bottom: 300px;
+}
+.textsize1{
+    font-size: 30px;
+}
+.textsize2{
+
+    font-size:10px;
+}
+.imginbanner{
+    margin-top: 30px;
+}
+.hidethis{
+    display: none;
+}
+.showthis{
+    display:block;
+}
+.hideme{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    height:300px;
+    margin-top: 10px;
+}
+.col-2{
+    max-width: 14%;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 7px 14px;
+    
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}

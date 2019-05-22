@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Info Peers</title>
+    <style>
+        li:hover { color:white; TEXT-DECORATION: none; font-weight: none;background-color: orangered }
+        @media screen and (max-width: 1125px){
+            .hideImage{
+                margin-right: 50px;
+            }
+        }
+    @media screen and (max-width: 999px){
+        .hideImage{
+            display: none;
+        }
+        .textsize1{
+            font-size: 30px;
+        }
+        .textsize2{
+            font-size: 10px;
+        }
+        .replace{
+            left:20%;
+            bottom: 5%;
+        }
+        .hideme{
+            display: none;
+        }
+        .showme{
+            display:block;
+        }
+    }
+    @media screen and (max-width: 963px){
+      .textsize1{
+            font-size: 25px;
+        }
+        .textsize2{
+            font-size: 10px;
+        }
+        .replace{
+            left:20%;
+            bottom: 5%;
+        }
+    }   
+    @media screen and (max-width: 637px){
+      .textsize1{
+            font-size: 15px;
+        }
+        .textsize2{
+            font-size: 10px;
+        }
+        .replace{
+            left:20%;
+            bottom: 5%;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .dropdownitemnav{
+            font-size: 14px;
+        }
+        
+    }
+    @media screen and (max-width: 580px){
+        .replace{
+            left:20%;
+        }
+    }
+    </style>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+</head>
+<body class='container-fluid'>
+    <header>
+        <div class='headcolor'></div>
+        <div style="position: absolute; background-color: orangered;margin-top:-20px; right: 10%">HOME | CLIENT |
+            SITEMAP</div>
+    </header>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="INFO PEERS LOGO"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navright" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="active nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="dropdown nav-item">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">SERVICES </a>
+                        <ul style="margin-top: 20px;" class="dropdown-menu">
+                            <li><a href="#">Staffing Serices</a></li>
+                            <li><a href="#">Application Development and Maintainance</a></li>
+                            <li><a href="#">Remote InfraStructure Management</a></li>
+                            <li><a href="#">Mobile Application Development</a></li>
+                            <li><a href="#">Business process outsourcing</a></li>
+                            <li><a href="#">Offshore outsourcing</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">INDUSTRIES</a>
+                        <ul style="margin-top: 20px;" class="dropdown-menu">
+                            <li><a style=""
+                                    href="industriesconsumergoods.html">Consumer Goods</a></li>
+                            <li><a style="" href="industrieshealthcare.html">Health
+                                    Care</a></li>
+                            <li><a style=""
+                                    href="industriesmanufacting.html">Manufacturing</a></li>
+                        </ul>
+                    </li>
+                    <li class='nav-item'><a class="nav-link" href="#">COMPANY</a></li>
+                    <li class='nav-item'><a class="nav-link" href="#">CAREERS</a></li>
+                    <li class='nav-item'><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="slider1bg.jpg" alt="Los Angeles" style="width:100%; height:450px; ">
+            <div class="carousel-caption cardimage2">
+                <div style='position:absolute; top:16%; display: flex' class='row'>
+                            <div class="col-md-3 col-sm-3"></div>
+                            <section style='width:40%; z-index:2' class='col-md-3 col-sm-2 hideImage'>
+                                <img class='img-fluid imginbanner' style='min-width:200px; max-width: 100% ;' src='slider1img.png' alt=''>
+                            </section>
+                        
+                            <section style='position: relative; margin-top:50px;  width:100%; height: 100%; z-index:1; color:white;'
+                                class='replace col-md-3 col-sm-3 bg-secondary '>
+                                <h1 class='textsize1'>What makes us different?</h1>
+                                <p class='textsize2'>
+                                        The integrated power of Domain knowledge coupled with Technology expertise and excellence in Delivery methodology.
+                                </p>
+                            </section>
+                            <div class='col-sm-1 col-md-2'></div>
+                        
+                        </div>
+                    </div>
+                </div>    
+   
+        <div class="carousel-item">
+            <img src="slider2bg.jpg" alt="Chicago" style="width:100%; height:450px;">
+            <div class="carousel-caption cardimage2">
+                <div style='position:absolute; top:16%; display: flex' class='row'>
+                    <div class="col-md-3 col-sm-3"></div>
+                    <section style='width:40%; z-index:2' class='col-md-3 col-sm-2 hideImage'>
+                        <img class='img-fluid imginbanner' style='min-width:200px; max-width: 100% ;' src='slider2img.png' alt=''>
+                    </section>
+            
+                    <section style='position: relative; margin-top:50px;  width:100%; height: 100%; z-index:1; color:white;'
+                        class='replace col-md-3 col-sm-3 bg-secondary '>
+                        <h1 class='textsize1'>What makes us different?</h1>
+                        <p class='textsize2'>
+                            Customer centric approach providing value proposition in all services with highest level of integrity and transparency.
+                        </p>
+                    </section>
+                    <div class='col-sm-1 col-md-2'></div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slider3bg.jpg" alt="New York" style="width:100%; height:450px;">
+            <div class="carousel-caption cardimage2">
+                <div style='position:absolute; top:16%; display: flex ;' class='row'>
+                    <div class="col-md-3 col-sm-3"></div>
+                    <section style='width:40%; z-index:2' class='col-md-3 col-sm-2 hideImage '>
+                        <img class='img-fluid imginbanner' style='min-width:200px; max-width: 100% ;' src='slider3img.png' alt=''>
+                    </section>
+            
+                    <section style='position: relative; margin-top:50px;  width:100%; height: 100%; z-index:1; color:white;'
+                        class='replace col-md-3 col-sm-3 bg-secondary '>
+                        <h1 class='textsize1'>What makes us different?</h1>
+                        <p class='textsize2'>
+                            Comprehensive solutions on Talent management through deep sourcing expertise, excellent access
+                            to Talent pool and speed of response.
+                        </p>
+                    </section>
+                    <div class='col-sm-1 col-md-2'></div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+
+
+<!-- ************************************************************** -->
+    <article class="content">
+        <h1>Welcome to Infopeers</h1>
+        <p>Infopeers is an end-to-end IT solutions and services company with vast experience across industry sectors with a mission
+        to help our clients transform their business and is a uniquely customer centric software development, project management
+        and consulting services company. Infopeers specializes in offering creative Software Outsourcing, Offshore Development
+        and onsite staffing needs. We provide Outsourced Product Development services and customized software solutions to
+        enterprises with special and unique needs. We combine fresh and creative ideas with specially structured processes and
+        resources to produce best-quality software. Our on-site/offshore staff augmentative solutions are reliable, efficient,
+        cost-effective and unique, ensuring competitive advantage for our clients. We strive not just to deliver cutting-edge
+        software solutions, but also ensure that our services add value for our customers. We believe that understanding our
+        clients and their strengths enables us to provide solutions, which would ideally suit their requirements, and add to
+        their competitive advantage. We strive to create new opportunities for our clients through our solutions.Head quartered
+        out of NY, InfoPeers has its overseas Global Development Center in India. We have extensive experience setting up
+        Application Development Centers in all parts of the Globe allowing our clients a flexible approach to optimally meet
+        their technical, operational and economical needs.</p>
+
+    </article>
+    <footer style='background-color: lightgray;' class="container-fluid">
+        <h1>Service offerings</h1>
+        <div class="row hideme ">
+        <div class='col-2 cardlayout active'><p onclick="functioncard(0)" class='cardB'><i class="fas fa-users"></i><br>Staffing Services </p></div>
+        <div class='col-2 cardlayout'><p onclick="functioncard(1)" class='cardB'><i class="fas fa-cogs"></i><br>Application Development and Maintainance </p></div>
+        <div class='col-2 cardlayout'><p onclick="functioncard(2)" class='cardB'><i class="fas fa-search-dollar"></i><br>Remote Infrastructure Management(RIM) </p></div>
+        <div class='col-2 cardlayout'><p onclick="functioncard(3)" class='cardB'><i class="fas fa-mobile-alt"></i><br>Mobile Application Development </p></div>
+        <div class='col-2 cardlayout'><p onclick="functioncard(4)" class='cardB'><i class="fas fa-user-tie"></i><br>Business Process Outsourcing </p></div>
+        <div class='col-2 cardlayout'><p onclick="functioncard(5)" class='cardB'><i class="fas fa-people-carry"></i><br>Offshore Outsourcing </p></div>
+        </div>
+        <div class="dropdownnav showme">
+            
+                <div class="carda" onclick="cardfunc(0)">
+                <a class="dropdown-item dropdownitemnav">Staffing services</a>
+                </div>
+                <div class="carda" onclick="cardfunc(1)">
+                <a class="dropdown-item dropdownitemnav">Application Development and maintainance</a>
+                </div>
+                <div class="carda" onclick="cardfunc(2)">
+                <a class="dropdown-item dropdownitemnav">Remote Infrastructre Management (RIM)</a>
+                </div>
+                <div class="carda" onclick="cardfunc(3)">
+                <a class="dropdown-item dropdownitemnav">Mobile Application Development</a>
+                </div>
+                <div class="carda" onclick="cardfunc(4)">
+                <a class="dropdown-item dropdownitemnav">Business process Outsourcing</a>
+                </div>
+                <div class="carda" onclick="cardfunc(5)">
+                <a class="dropdown-item dropdownitemnav">Offshore Outsourcing</a>
+                </div>
+            
+        </div>
+        
+        <div id='selectedcardB' class='row hideme'>
+            <img src="card1.png" alt="some image" class='col-3'>
+            <div class='col-9'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe fugit, minima ex, debitis inventore et, placeat dolor sit sequi ad amet eius quasi accusamus culpa beatae temporibus ut laudantium. </p>
+                <h1>some header</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt et eaque assumenda sit alias exercitationem corporis, ea quod placeat, laudantium asperiores! Impedit iste modi veritatis non porro, ipsum corrupti inventore?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur neque nobis quos, repellat omnis, magnam asperiores dicta dolores dolorem quidem, quia autem ratione totam cupiditate amet? Accusamus, atque laboriosam.
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src='index.js'></script>
+</body>
+</html>

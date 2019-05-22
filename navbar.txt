@@ -1,0 +1,43 @@
+<header>
+        <div class='headcolor'></div> 
+        <div style="position: absolute; background-color: orangered;margin-top:-20px; right: 10%">HOME | CLIENT | SITEMAP</div> 
+    </header>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="logo.png" alt="INFO PEERS LOGO"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navright" id="navbarSupportedContent">
+            <ul class="nav navbar-nav">
+                <li class="active nav-item"><a class="nav-link" href="#">HOME</a></li>
+                <li class="dropdown nav-item">
+                    <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">SERVICES </a>
+                    <ul style="margin-top: 20px;" class="dropdown-menu">
+                        <li><a href="staff.html">Staffing Serices</a></li>
+                        <li><a href="appdev.html">Application Development and Maintainance/a></li>
+                        <li><a href="rem.html">Remote InfraStructure Management</a></li>
+                        <li><a href="mobile.html">Mobile Application Development</a></li>
+                        <li><a href="business.html">Business process outsourcing</a></li>
+                        <li><a href="offshore.html">Offshore outsourcing</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown nav-item">
+                    <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">INDUSTRIES</a>
+                    <ul style="margin-top: 20px;" class="dropdown-menu">
+                        <li><a style=" color: black;text-decoration: none;" href="industriesconsumergoods.html">Consumer Goods</a></li>
+                        <li><a style=" color: black;text-decoration: none;" href="industrieshealthcare.html">Health Care</a></li>
+                        <li><a style=" color: black;text-decoration: none;" href="industriesmanufacting.html">Manufacturing</a></li>
+                    </ul>
+                </li>
+                <li class='nav-item'><a class="nav-link" href="#">COMPANY</a></li>
+                <li class='nav-item'><a class="nav-link" href="#">CAREERS</a></li>
+                <li class='nav-item'><a class="nav-link" href="#">CONTACT</a></li>
+            </ul>
+            </div>
+            
+        </div>
+    </nav>
